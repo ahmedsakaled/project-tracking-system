@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": ["/assets/*", "/anbar-water-logo.jpg", "/favicon.ico"]
+}

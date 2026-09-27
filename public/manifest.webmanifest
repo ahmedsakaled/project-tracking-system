@@ -1,0 +1,49 @@
+{
+  "name": "متابعة المشاريع",
+  "short_name": "متابعة المشاريع",
+  "description": "منصة رسمية متكاملة لإدارة ومتابعة المشاريع والتقارير الشهرية ونسب الإنجاز - مديرية ماء الأنبار.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0c2340",
+  "theme_color": "#0c2340",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/anbar-water-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "متابعة المشاريع",
+      "short_name": "المشاريع",
+      "description": "الانتقال المباشر لجدول متابعة المشاريع",
+      "url": "/projects"
+    },
+    {
+      "name": "التقارير الشهرية",
+      "short_name": "التقارير",
+      "description": "استعراض وإصدار التقارير الشهرية",
+      "url": "/reports"
+    }
+  ]
+}
